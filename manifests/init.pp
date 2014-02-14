@@ -31,7 +31,7 @@ class python {
             mode => 0755;
         "/var/puppet/python/ez_setup.py":
             ensure => "present",
-            source => "puppet:///python/ez_setup.py",
+            source => "puppet:///modules/python/ez_setup.py",
             owner => "root",
             group => "root",
             mode => 0500;
